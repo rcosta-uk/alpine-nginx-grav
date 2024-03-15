@@ -47,7 +47,8 @@ RUN addgroup ubuntu tty
 
 # CONFIGING NGINX
 ADD extra/nginx.conf /etc/nginx/nginx.conf
-ADD extra/rcosta.conf /etc/nginx/http.d/rcosta.conf
+ADD extra/domain.conf /etc/nginx/http.d/domain.conf
+ADD extra/default.conf /etc/nginx/http.d/default.conf
 
 # CONFIGURING PHP-FPM
 RUN rm -v /etc/php82/php-fpm.d/www.conf
