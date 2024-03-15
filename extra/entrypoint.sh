@@ -31,9 +31,9 @@ fi
 chown -R ubuntu:ubuntu /var/www/html
 chown -R ubuntu:ubuntu /var/lib/nginx/html
 
-find /usr/html -type f | xargs chmod 664
-find /usr/html -type d | xargs chmod 775
-find /usr/html -type d | xargs chmod +s
+find /var/www/html -type f | xargs chmod 664
+find /var/www/html -type d | xargs chmod 775
+find /var/www/html -type d | xargs chmod +s
 
 # start php-fpm
 php-fpm82
