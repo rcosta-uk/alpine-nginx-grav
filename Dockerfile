@@ -1,7 +1,7 @@
 FROM alpine:3.19
 
 # ENVIRONMENT
-ARG GRAV_VERSION="1.7.44"
+ARG GRAV_VERSION="1.7.45"
 ARG ALPINE_VERSION="3.19"
 ARG PHP_VERSION="8.2"
 ARG WEB_DOMAIN="rcosta.uk"
@@ -12,7 +12,7 @@ LABEL maintainer="Raul Costa <raul@rcosta.uk>"
 LABEL description="Alpine + Nginx + PHP for Grav CMS" \
       architecture="amd64/x86_64" \
       alpine-version="3.19" \
-      grav-version="1.7.44" \
+      grav-version="1.7.45" \
       nginx-version="1.25.4" \
       php-version="8.1.27" \
       build="${BUILD_DATE}" \
