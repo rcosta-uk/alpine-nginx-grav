@@ -3,7 +3,7 @@
 [ -f /run-pre.sh ] && /run-pre.sh
 
 # Define the file version
-GRAV_VERSION="1.7.44"
+GRAV_VERSION="1.7.45"
 URL="https://getgrav.org/download/core/grav-admin/${GRAV_VERSION}"
 
 # Check if the target folder exists, create if necessary
